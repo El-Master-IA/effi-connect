@@ -1,6 +1,6 @@
 # Effi Connect
 
-**El panel y la operación para negocios que venden con [Effi ERP](https://effi.com.co), listos para desplegar con un solo prompt.** Todo está en este repositorio: el panel web, la base de datos, las funciones, los webhooks y los prompts que le dicen a Claude Code cómo instalarlo por ti.
+**El panel y la operación para negocios que venden con [Effi ERP](https://effi.com.co/registro?ref=MzUyMTXHhDE=), listos para desplegar con un solo prompt.** Todo está en este repositorio: el panel web, la base de datos, las funciones, los webhooks y los prompts que le dicen a Claude Code cómo instalarlo por ti.
 
 Parte de El Máster IA ([@elmaster.ia](https://www.instagram.com/elmaster.ia/)) · El Laboratorio. Licencia AGPL-3.0. Proyecto independiente, no oficial de Effi: usa la API pública de Effi con la API key de cada empresa.
 
@@ -32,7 +32,7 @@ Skills: `effi-connect` (orquestador), `effi-supabase`, `effi-cuentas`, `effi-ver
 ## Qué necesitas
 - [Claude Code](https://claude.com/claude-code), Node ≥ 22, pnpm 10 y Git.
 - Una cuenta de [Supabase](https://supabase.com) y una de [Vercel](https://vercel.com).
-- Tu empresa en Effi con un usuario de **solo consulta** (de ahí sale la API key).
+- Tu empresa en Effi con un usuario de **solo consulta** (de ahí sale la API key). ¿Aún no usas Effi? [Crea tu cuenta con mi enlace](https://effi.com.co/registro?ref=MzUyMTXHhDE=).
 
 ## Qué se despliega según lo que eres
 | | Marca propia | Distribuidor | Proveedor |
@@ -100,6 +100,9 @@ Ninguna llave pasa por el chat ni por git. Las pegas tú en el SQL Editor de Sup
 - [ ] **Pedidos contraentrega**: crear orden y guía en Effi desde el panel.
 - [ ] **Adaptadores**: Shopify, WhatsApp, Beemo y asistentes de IA con tu propia clave (hoy solo hay las interfaces).
 - [ ] **MCP**: consulta y opera tu negocio desde Claude, ChatGPT o Gemini.
+
+## Comunidad
+Si entras a Effi con [mi enlace](https://effi.com.co/registro?ref=MzUyMTXHhDE=), no te cuesta más y te sumas a la [comunidad de El Máster IA en WhatsApp](https://chat.whatsapp.com/F5QDgl4imsjBjW1KL2DhRE). Ahí comparto cada recurso que armo para Effi (prompts, plugins, automatizaciones y las novedades de este panel) para que lo integres a tu operación.
 
 ## Contribuir
 Lee [CONTRIBUTING.md](CONTRIBUTING.md). Los adaptadores nuevos (otra IA, otro canal, otra logística) son la contribución más útil.
