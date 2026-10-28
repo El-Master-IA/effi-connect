@@ -5,16 +5,15 @@
 Parte de El Máster IA ([@elmaster.ia](https://www.instagram.com/elmaster.ia/)) · El Laboratorio. Licencia AGPL-3.0. Proyecto independiente, no oficial de Effi: usa la API pública de Effi con la API key de cada empresa.
 
 ## Despliégalo con un solo prompt
-Abre Claude Code en una carpeta vacía y pega esto:
+Abre Claude Code en una carpeta vacía y pega **todo el contenido de [`PROMPT.md`](PROMPT.md)** (también está, con botón Copiar, en la pestaña Instalación de la página del recurso en El Laboratorio). Ese prompt hace todo: revisa tus herramientas, clona este repositorio, te entrevista, despliega Supabase, conecta tus cuentas de Effi, publica el panel en Vercel, crea los webhooks y verifica el resultado.
+
+Si prefieres algo más corto, esta versión descarga el repositorio y sigue el mismo guion:
 
 ```text
-Quiero desplegar Effi Connect. Haz todo tú, un paso a la vez, y pídeme aprobación antes de cambiar algo.
-1. Clona https://github.com/El-Master-IA/effi-connect (si no existe la carpeta effi-connect) y trabaja dentro de ella.
-2. Lee PROMPT.md y síguelo desde el Paso 0.
-Ejecuta tú los comandos y pídeme solo lo que únicamente yo puedo hacer (iniciar sesión, pegar llaves, apretar Guardar). Ninguna llave por el chat.
+Quiero desplegar Effi Connect. Clona https://github.com/El-Master-IA/effi-connect (si no existe la carpeta effi-connect), trabaja dentro de ella, lee PROMPT.md completo y síguelo desde el Paso 0, un paso a la vez y pidiéndome aprobación antes de cambiar algo. Ninguna llave por el chat.
 ```
 
-Claude te hace **solo tres preguntas** y despliega lo que te toca:
+Claude te entrevista (países, tipo de negocio y lo que falte) y despliega lo que te toca:
 1. **¿En qué países vendes?** Colombia, Ecuador, Guatemala, República Dominicana o Costa Rica.
 2. **¿Qué eres?** Marca propia con e-commerce, distribuidor dropshipping o proveedor dropshipping.
 3. Lo que falte (nombre de la marca, correo del dueño, si usas Shopify, qué opcionales quieres).
@@ -109,4 +108,6 @@ Lee [CONTRIBUTING.md](CONTRIBUTING.md). Los adaptadores nuevos (otra IA, otro ca
 El panel de analítica parte de *Torre de Control*, de Oswaldo Alarcón.
 
 ## Licencia
-[AGPL-3.0](LICENSE). Puedes usarlo, modificarlo y alojarlo. Si ofreces una versión modificada como servicio, tienes que publicar tus cambios.
+El código, los prompts y el plugin están bajo [AGPL-3.0](LICENSE), titular El Máster IA. Puedes usarlo, modificarlo y alojarlo. Si ofreces una versión modificada como servicio, tienes que publicar tus cambios.
+
+**Marcas y arte.** Los logos de Effi, Claude, OpenAI, Gemini, Copilot, Supabase, Vercel y Shopify son marcas de sus dueños y esta licencia no los cubre. La portada, el panda y la marca El Máster (incluido `.claude-plugin/icon.png`) son de El Máster IA, todos los derechos reservados.
